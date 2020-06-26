@@ -1,6 +1,6 @@
 var spok = require('spok')
 var tape = require('tape')
-var gql = require('./')
+var gql = require('./main.js').default
 
 tape('should create a query', function (assert) {
   var query = gql`
