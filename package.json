@@ -1,13 +1,15 @@
 {
-  "name": "nanographql",
+  "name": "nanographql-esm",
   "description": "Tiny graphQL client library",
-  "repository": "yoshuawuyts/nanographql",
-  "version": "2.0.0",
+  "repository": "klanmiko/nanographql-esm",
+  "version": "2.1.0",
   "scripts": {
-    "start": "node .",
+    "start": "node main",
     "test": "standard && node test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
   "devDependencies": {
     "spok": "^0.8.1",
     "standard": "^10.0.2",
@@ -16,7 +18,9 @@
   "keywords": [
     "graphql",
     "small",
-    "nano"
+    "nano",
+    "esm"
   ],
+  "main": "index.mjs",
   "license": "MIT"
 }
