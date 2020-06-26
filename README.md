@@ -7,7 +7,7 @@ code.
 
 ## Usage
 ```js
-var gql = require('nanographql')
+import gql from 'nanographql'
 
 var query = gql`
   query($name: String!) {
