@@ -1,7 +1,7 @@
 {
   "name": "nanographql-esm",
   "description": "Tiny graphQL client library",
-  "repository": "klanmiko/nanographql",
+  "repository": "klanmiko/nanographql-esm",
   "version": "2.1.0",
   "scripts": {
     "start": "node .",
